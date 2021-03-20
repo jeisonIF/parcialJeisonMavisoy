@@ -1,0 +1,180 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title>
+      CALCULADORA
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-label>
+      {{this.resultado}}
+    </ion-label>
+  </ion-item>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button
+              (click)="reset()"
+              size="large"
+              expand="full">c
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button
+          (click)="operacion('*')"
+          size="large"
+          expand="full">*
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button
+          (click)="operacion('/')"
+          size="large"
+          expand="full">/
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+      </ion-col>
+      <ion-col>
+        <ion-button
+          (click)="operacion('+')"
+          size="large"
+          expand="full">+
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button
+          (click)="operacion('-')"
+          size="large"
+          expand="full">-
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button
+          (click)="numero('7')"
+          size="large"
+          expand="full">7
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button
+          (click)="numero('8')"
+          size="large"
+          expand="full">8
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button
+          (click)="numero('9')"
+          size="large"
+          expand="full">9
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button
+          (click)="numero('4')"
+          size="large"
+          expand="full">4
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button
+          (click)="numero('5')"
+          size="large"
+          expand="full">5
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button
+          (click)="numero('6')"
+          size="large"
+          expand="full">6
+        </ion-button>
+      </ion-col>      
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button
+          (click)="numero('7')"
+          size="large"
+          expand="full">7
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button
+          (click)="numero('8')"
+          size="large"
+          expand="full">8
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button
+          (click)="numero('9')"
+          size="large"
+          expand="full">9
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button
+          (click)="numero('1')"
+          size="large"
+          expand="full">1
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button
+          (click)="numero('2')"
+          size="large"
+          expand="full">2
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button
+          (click)="numero('3')"
+          size="large"
+          expand="full">3
+        </ion-button>
+      </ion-col>      
+    </ion-row>
+  
+    <ion-row>
+      <ion-col>
+      <ion-button
+          (click)="numero('0')"
+          size="large"
+          expand="full">0
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button
+            (click)="result()"
+            size="large"
+            expand="full">=
+          </ion-button>
+        </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  
+
+  
+
+   
+    
+</ion-content>
